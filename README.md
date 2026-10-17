@@ -37,7 +37,7 @@ python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
 
-
+# then
 pip install -e ".[web]"
 ```
 

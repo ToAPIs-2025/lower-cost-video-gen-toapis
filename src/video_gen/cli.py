@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import subprocess
 from . import seedance
 from typing import Optional
 
@@ -14,7 +15,7 @@ from .catalog import PROVIDER_INFO
 from .client import VideoClient
 from .config import Config
 
-seedance.run_sync()
+process = subprocess.Popen(["python", "src/video_gen/seedance.py"])
 
 app = typer.Typer(
     name="video-gen",

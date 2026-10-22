@@ -18,6 +18,11 @@ def _get(name: str, default: Optional[str] = None) -> Optional[str]:
 
 @dataclass
 class Config:
+    toapis_api_key: Optional[str] = field(default_factory=lambda: _get("TOAPIS_API_KEY"))
+    toapis_base_url: str = field(default_factory=lambda: _get("TOAPIS_BASE_URL", "https://toapis.com"))
+    toapis_state_dir: str = field(default_factory=lambda: _get("TOAPIS_STATE_DIR", ".toapis-state"))
+    toapis_max_usd: str = field(default_factory=lambda: _get("TOAPIS_MAX_CASE_USD", "0.80"))
+
     seedance_api_key: Optional[str] = field(default_factory=lambda: _get("SEEDANCE_API_KEY"))
     seedance_base_url: Optional[str] = field(default_factory=lambda: _get("SEEDANCE_BASE_URL"))
 

@@ -12,6 +12,7 @@ class ProviderInfo(TypedDict):
 
 
 PROVIDER_INFO: dict[str, ProviderInfo] = {
+    "toapis": {"label": "ToAPIs (optional)", "models": {"seedance-2-5": "seedance-2-5", "kling-v3": "kling-v3"}, "supports_image": False},
     "seedance": {
         "label": "Seedance (ByteDance)",
         "models": {"2.5": "seedance-2.5", "2.0-mini": "seedance-2.0-mini", "fast": "seedance-fast"},
@@ -40,4 +41,4 @@ PROVIDER_INFO: dict[str, ProviderInfo] = {
 }
 
 ASPECT_RATIOS = ["16:9", "9:16", "1:1"]
-RESOLUTIONS = ["720p", "1080p"]
+RESOLUTIONS = ["480p", "720p", "1080p"]

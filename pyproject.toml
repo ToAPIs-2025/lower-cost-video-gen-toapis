@@ -41,3 +41,6 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
+
+[tool.setuptools.package-data]
+"video_gen.providers" = ["toapis_presets.json"]

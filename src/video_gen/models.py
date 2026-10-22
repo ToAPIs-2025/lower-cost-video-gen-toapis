@@ -6,7 +6,7 @@ from typing import Any, Literal, Optional
 
 from pydantic import BaseModel, Field
 
-ProviderName = Literal["seedance", "kling", "minimax", "wan"]
+ProviderName = Literal["toapis", "seedance", "kling", "minimax", "wan"]
 TaskState = Literal["pending", "running", "succeeded", "failed", "cancelled"]
 
 

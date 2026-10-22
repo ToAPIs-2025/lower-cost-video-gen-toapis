@@ -1,0 +1,48 @@
+{
+  "seedance-2-5": {
+    "model": "seedance-2-5",
+    "kind": "video",
+    "request": {
+      "model": "seedance-2-5",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false,
+      "output_format": "mp4"
+    },
+    "pricing_conditions": {
+      "duration": "-1",
+      "resolution": "480p",
+      "has_video_input": false,
+      "has_image_input": false,
+      "has_audio_input": false,
+      "input_image_count": 0,
+      "output_format": "mp4",
+      "generate_audio": false
+    },
+    "needs_image": false,
+    "historical_api_success": true,
+    "current_pricing_status": "query_on_run"
+  },
+  "kling-v3": {
+    "model": "kling-v3",
+    "kind": "video",
+    "request": {
+      "model": "kling-v3",
+      "duration": 5,
+      "mode": "std",
+      "aspect_ratio": "16:9",
+      "audio": false
+    },
+    "pricing_conditions": {
+      "duration": 5,
+      "mode": "std",
+      "audio": false,
+      "capability": "text2video",
+      "has_video_input": false
+    },
+    "needs_image": false,
+    "historical_api_success": true,
+    "current_pricing_status": "query_on_run"
+  }
+}

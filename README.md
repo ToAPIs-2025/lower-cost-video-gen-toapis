@@ -1,3 +1,9 @@
+# Lower-cost Video Gen Client with ToAPIs
+
+Community fork: [real video cases, bilingual tutorial and API pricing](toapis-guide/README.md) · [中文](toapis-guide/README_zh-CN.md). Optional native provider; original project and licenses retained below. No upstream endorsement is implied.
+
+---
+
 # Video Gen Client
  
 One async Python client for multiple video-generation providers: **Seedance, Kling, MiniMax/Hailuo and Wan**.

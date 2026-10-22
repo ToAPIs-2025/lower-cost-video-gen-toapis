@@ -28,6 +28,7 @@ console = Console()
 
 def _configured(cfg: Config) -> dict[str, bool]:
     return {
+        "toapis": bool(cfg.toapis_api_key),
         "seedance": bool(cfg.seedance_api_key),
         "kling": bool(cfg.kling_access_key and cfg.kling_secret_key),
         "minimax": bool(cfg.minimax_api_key),

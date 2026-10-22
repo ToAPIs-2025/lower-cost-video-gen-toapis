@@ -1,0 +1,143 @@
+[
+  {
+    "project": "Video Gen Client",
+    "date": "2026-10-22",
+    "kind": "video",
+    "model": "kling-v3",
+    "parameters": {
+      "model": "kling-v3",
+      "duration": 5,
+      "mode": "std",
+      "aspect_ratio": "16:9",
+      "audio": false
+    },
+    "pricing": {
+      "model": "kling-v3",
+      "type": "video",
+      "conditions": {
+        "duration": 5,
+        "mode": "std",
+        "audio": false,
+        "capability": "text2video",
+        "has_video_input": false
+      },
+      "currency": "USD",
+      "unit": "second",
+      "price_basis": "output_seconds",
+      "charge_type": "per_second",
+      "maximum_unit_price": "0.06",
+      "prices": [
+        {
+          "charge_type": "per_second",
+          "conditions": {
+            "audio": false,
+            "capability": "text2video",
+            "duration": 5,
+            "has_video_input": false,
+            "mode": "std"
+          },
+          "group": "default",
+          "price_basis": "output_seconds",
+          "unit": "second",
+          "unit_price": "0.06"
+        }
+      ],
+      "queried_at": "2026-10-22T01:59:28.129797+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.30",
+    "status": "completed",
+    "cost": {
+      "model": "kling-v3",
+      "billing_status": "settled",
+      "actual_cost_usd": "0.3",
+      "actual_credits": "60"
+    },
+    "file": "assets/kling-v3-native.mp4",
+    "native_sdk_verified": true,
+    "native_web_ui_verified": false,
+    "durable_resume_same_task": true,
+    "is_actual_charge": true,
+    "case_price_usd": "0.3",
+    "price_basis": "API billing=settled",
+    "seconds": "5.04",
+    "width": 1280,
+    "height": 720,
+    "fully_decoded": true,
+    "actual_usd_per_second": "0.05952380952380952380952380952",
+    "preview": "assets/kling-v3-native.jpg"
+  },
+  {
+    "project": "Video Gen Client",
+    "date": "2026-10-22",
+    "kind": "video",
+    "model": "seedance-2-5",
+    "parameters": {
+      "model": "seedance-2-5",
+      "duration": 4,
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "generate_audio": false,
+      "output_format": "mp4"
+    },
+    "pricing": {
+      "model": "seedance-2-5",
+      "type": "video",
+      "conditions": {
+        "duration": "-1",
+        "resolution": "480p",
+        "has_video_input": false,
+        "has_image_input": false,
+        "has_audio_input": false,
+        "input_image_count": 0,
+        "output_format": "mp4",
+        "generate_audio": false
+      },
+      "currency": "USD",
+      "unit": "1m_tokens",
+      "price_basis": "total_tokens",
+      "charge_type": "per_token",
+      "maximum_unit_price": "10",
+      "prices": [
+        {
+          "charge_type": "per_token",
+          "conditions": {
+            "duration": "-1",
+            "has_audio_input": false,
+            "has_image_input": false,
+            "has_video_input": false,
+            "output_format": "mp4",
+            "resolution": "480p"
+          },
+          "group": "default",
+          "price_basis": "total_tokens",
+          "unit": "1m_tokens",
+          "unit_price": "10"
+        }
+      ],
+      "queried_at": "2026-10-22T01:59:25.749151+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.384",
+    "status": "completed",
+    "cost": {
+      "model": "seedance-2-5",
+      "billing_status": "settled",
+      "actual_cost_usd": "0.3883",
+      "actual_credits": "77.66"
+    },
+    "file": "assets/seedance-2-5-native.mp4",
+    "native_sdk_verified": true,
+    "native_web_ui_verified": false,
+    "durable_resume_same_task": true,
+    "is_actual_charge": true,
+    "case_price_usd": "0.3883",
+    "price_basis": "API billing=settled",
+    "seconds": "4.04",
+    "width": 854,
+    "height": 480,
+    "fully_decoded": true,
+    "actual_usd_per_second": "0.09611386138613861386138613861",
+    "preview": "assets/seedance-2-5-native.jpg"
+  }
+]
